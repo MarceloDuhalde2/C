@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>-Convertidor multimedia para iPod Touch -</title>
+<link rel="stylesheet" href="/encoder_audio_video/styles.css" type="text/css" />
+</head>
+<body>
+
+<div id="wrap">
+	<div id="header">
+		<div id="innerheader">
+			<div id="title">
+				<h1>Convertidor multimedia</h1>
+			</div>
+		</div>
+	</div>
+	
+	<div id="content">
+		<div id="page">
+			<div class="innerpage">
+			      <form>
+				<fieldset>
+				  <legend>Opciones de Video</legend>
+				  <p>
+				      <label>Seleccione la resolucion del video resultante: 
+					  <select name="-vf">
+					    <option selected="selected" value="SCALE=1024:768">- 1024x768 -</option>
+					    <option value="SCALE=800:600" >- 800x600 -</option>
+					    <option  value="SCALE=640:480">- 640x480 -</option>
+					    <option  value="SCALE=480:320">- iPod -</option>
+					  </select>
+				      </label>
+				  </p>
+				  <p>
+				      <label>Seleccione Cuadros por segundo del video resultante: 
+					  <select name="-fps">
+					    <option selected="selected" value="20">- 20 -</option>
+					    <option value="25" >- 25 -</option>
+					    <option  value="30">- 30 -</option>
+					    <option  value="30">- iPod -</option>
+					  </select>
+				      </label>
+				  </p>
+				  <p>
+				      <label>Seleccione la relacion de aspecto del video resultante: 
+					  <select name="-aspect">
+					    <option selected="selected" value="4:3">- 4:3 -</option>
+					    <option value="16:9" >- 16:9 -</option>
+					    <option  value="3:2">- iPod -</option>
+					  </select>
+				      </label>
+				  </p>
+				  <p>
+				      <label>Desea quitar las bandas negras? 
+					  <input type="checkbox" name="-cropdetect" value="-cropdetect">
+				      </label>
+				  </p>
+				</fieldset>
+				<fieldset>
+				  <legend>Opciones de Audio</legend>
+				  <p>
+				    <label>Seleccione calidad del audio: 
+				      <select name="-lameopts" >
+					    <option selected="selected" value="preset=medium">- Baja -</option>
+					    <option value="preset=standard" >- Normal -</option>
+					    <option value="preset=exteme">- Alta -</option>
+					    <option value="preset=insane">- iPod -</option>
+				      </select>
+				    </label>
+				  </p>
+				</fieldset>
+				<p style="text-align:center;">
+				    <label>
+				      <input type="button" name="botCom" id="botCom" value="Comenzar" />
+				    </label>
+				    <label>
+				      <input type="reset" name="botCan" id="botCan" value="Cancelar" />
+				    </label>
+				</p>
+			      </form>
+				<p style="text-align:center;">&nbsp;</p>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
